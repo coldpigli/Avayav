@@ -5,9 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./stylesheets/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>Avavya</title>
 </head>
-<body>
-    
+<body class="flex-vertical">
+    <div class="navigation-top w-75">
+        <header class="nav-bar left-aligned">
+            <div class="brand-img children-middle">
+                <img src="./assets/avavya-logo.png" alt="ingredient-logo">
+            </div>
+            <section class="nav-links flex">
+                <a href="#" class="nav-item paragraph2 txt-gray txt-brand-color">Home</a>
+                <a href="#" class="nav-item paragraph2 txt-gray">Deals</a>
+                <a href="#" class="nav-item paragraph2 txt-gray">Shop</a>
+            </section>
+            <section class="user-info children-middle">
+                <div class="user-profile children-middle">
+                    <p class="user-name paragraph2 txt-gray">Hello, <strong>Piyush</strong></p>
+                    <img class="avatar avatar-xxs" src="./assets/avatar-4.jpg" alt="alernative-text">
+                </div>
+                <div class="wishlist">
+                    <div class="badge">
+                        <span class="material-icons md-24">favorite_border</span>
+                        <div class="badge-value top-right">3</div>
+                    </div>
+                </div>
+                <div class="cart">
+                    <div class="badge">
+                        <span class="material-icons md-24">shopping_cart</span>
+                        <div class="badge-value top-right">1</div>
+                    </div>
+                </div>  
+            </section>
+        </header>
+    </div>
+    <section class="avavya-hero w-90">
+        <div class="avavya-hero-img w-100 flex">
+            <img src="./assets/Ecommerce-banner-removebg-preview.png" alt="">
+        </div>
+        <div class="avavya-hero-txt">
+            <h1 class="heading1">Order your<br>Daily Groceries</h1>
+            <h2 class="heading2 txt-brand-color gap-d30">#Free Delivery</h2>
+            <div class="search-bar flex">
+                <span class="material-icons md-24">search</span>
+                <input class="input-box" placeholder="Search for groceries">
+                <button class="btn btn-primary">Search</button>
+            </div>    
+        </div>
+    </section>
 </body>
 </html>

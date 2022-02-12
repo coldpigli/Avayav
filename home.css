@@ -38,4 +38,95 @@
     font-size: 0.875rem;
 }
 
+/*****Home-Page*****/
+
+/* Overriding some styles from default  */
+.txt-brand-color{
+    color: var(--brand-color);
+}
+
+.navigation-top{
+    margin: 0 auto;
+}
+.nav-bar{
+    height: 8rem;
+    justify-content: space-between;
+}
+
+.nav-links{
+    gap: 2rem;
+}
+
+.nav-item{
+    margin-left: 0;
+}
+
+.brand-img{
+    width: 10rem;
+    height: 4rem;
+}
+
+.user-info{
+    gap: var(--space-lg);
+}
+
+.badge{
+    background-color: var(--cherry-light-opaque);
+    padding: var(--space-xs);
+    border-radius: var(--radius-round);
+    color: var(--cherry);
+}
+
+.cart .badge{
+    background-color: var(--primary-opaque);
+    color: var(--brand-color);
+}
+
+.cart .badge .badge-value{
+    background-color: var(--brand-color);
+}
+
+.user-profile{
+    gap: var(--space-xs);
+}
+
+.avavya-hero{
+    margin: 0 auto;
+    position: relative;
+}
+.avavya-hero-img{
+    justify-content: flex-end;
+    background-color: var(--background-skyblue-opaque);
+    border-radius: 2.5rem;
+}
+
+.avavya-hero-img img{
+    border-radius: 2.5rem;
+    height: 70vh;
+}
+
+.avavya-hero-txt{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.search-bar{
+    align-items: center;
+    background-color: var(--background-day);
+    padding-left: var(--space-sm);
+    border-radius: var(--radius-lg);
+}
+.search-bar .input-box{
+    outline: none;
+    border: none;
+    margin-right: var(--space-lg);
+}
+
+.search-bar .btn{
+    border-radius: var(--space-sm);
+    background-color: var(--brand-color);
+}
+
+
 
