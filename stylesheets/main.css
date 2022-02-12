@@ -1,0 +1,6 @@
+/* Importing Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap');
+
+/* Importing my own CSS component library */
+@import url("https://ingredient.netlify.app/css/main.css");
+@import url("../home.css");

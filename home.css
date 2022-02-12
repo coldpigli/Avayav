@@ -1,0 +1,41 @@
+/* Defining root colors for the brand */
+:root{
+
+    /* font colors  */
+    --font-primary: #16162E;
+    --font-gray: #202020;
+    --font-gray-light: #F7F7F7;
+
+    /* backgorund colors  */
+    --background-skyblue-opaque: #D5F0DB;
+
+    /* brand */
+    --brand-color: #40AA54;
+
+    /* font */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Defining new font sizes */
+
+.heading1{
+    font-size: 2.25rem;
+}
+
+.heading2{
+    font-size: 1.526rem;
+}
+
+.heading3{
+    font-size: 1.25rem;
+}
+
+.paragraph1{
+    font-size: 1.125rem;
+}
+
+.paragraph2{
+    font-size: 0.875rem;
+}
+
+
