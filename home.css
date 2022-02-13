@@ -100,6 +100,40 @@
     border-radius: 2.5rem;
 }
 
+/*Dropdown*/
+.dropbtn {
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--background-day);
+    min-width: 10rem;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: var(--background-skyblue-opaque);
+    }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/* Dropdown end    */
+
 .avavya-hero-img img{
     border-radius: 2.5rem;
     height: 70vh;
