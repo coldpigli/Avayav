@@ -4,7 +4,7 @@
     /* font colors  */
     --font-primary: #16162E;
     --font-gray: #202020;
-    --font-gray-light: #F7F7F7;
+    --font-gray-light: #eef0f1;
 
     /* backgorund colors  */
     --background-skyblue-opaque: #D5F0DB;
@@ -14,6 +14,10 @@
 
     /* font */
     font-family: 'Poppins', sans-serif;
+}
+
+.bod-light{
+    border: 0.5px solid var(--font-gray-light);
 }
 
 /* Defining new font sizes */
@@ -38,4 +42,195 @@
     font-size: 0.875rem;
 }
 
+/*****Home-Page*****/
 
+/* Overriding some styles from default  */
+.txt-brand-color{
+    color: var(--brand-color);
+}
+
+.navigation-top{
+    margin: 0 auto;
+}
+.nav-bar{
+    height: 8rem;
+    justify-content: space-between;
+}
+
+.nav-links{
+    gap: 2rem;
+}
+
+.nav-item{
+    margin-left: 0;
+}
+
+.brand-img{
+    width: 10rem;
+    height: 4rem;
+}
+
+.user-info{
+    gap: var(--space-lg);
+}
+
+.badge{
+    background-color: var(--cherry-light-opaque);
+    padding: var(--space-xs);
+    border-radius: var(--radius-round);
+    color: var(--cherry);
+}
+
+.cart .badge{
+    background-color: var(--primary-opaque);
+    color: var(--brand-color);
+}
+
+.cart .badge .badge-value{
+    background-color: var(--brand-color);
+}
+
+.user-profile{
+    gap: var(--space-xs);
+}
+
+.avavya-hero{
+    margin: 0 auto;
+    position: relative;
+}
+.avavya-hero-img{
+    justify-content: flex-end;
+    background-color: var(--background-skyblue-opaque);
+    border-radius: 2.5rem;
+}
+
+/*Dropdown*/
+.dropbtn {
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--background-day);
+    min-width: 10rem;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: var(--background-skyblue-opaque);
+    }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/* Dropdown end    */
+
+.avavya-hero-img img{
+    border-radius: 2.5rem;
+    height: 70vh;
+}
+
+.avavya-hero-txt{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.search-bar{
+    align-items: center;
+    background-color: var(--background-day);
+    padding-left: var(--space-sm);
+    border-radius: var(--radius-lg);
+}
+.search-bar .input-box{
+    outline: none;
+    border: none;
+    margin-right: var(--space-lg);
+}
+
+.search-bar .btn{
+    border-radius: var(--space-sm);
+    background-color: var(--brand-color);
+}
+
+/* Category Section  */
+.category-section{
+    margin: 5rem auto 2rem auto;
+    gap: 5rem;
+}
+.sale{
+    background-color: var(--background-skyblue-opaque);
+    padding: 4rem;
+    border-radius: 2.5rem;
+}
+
+.category-item{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: var(--font-gray-light);
+    padding: 2rem;
+    cursor: pointer;
+    border-radius: var(--radius-lg);
+}
+
+.category-item span{
+    font-size: 4rem;
+}
+
+.popular-item{
+    gap: 1rem;
+}
+
+.card{
+    width: 15rem;
+    height: 22rem;
+    background-color: var(--background-day);
+}
+.card-image{
+    background-color: var(--background-day);
+}
+
+.card-image img{
+    aspect-ratio: 1/0.8;
+}
+
+.add-to-bag{
+    color: var(--background-day);
+    background-color: var(--brand-color);
+    padding: var(--space-xs);
+    border-radius: var(--radius-round);
+}
+
+.cards-cta p{
+    margin: 0 1rem;
+}
+
+.counter-button{
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--brand-color);
+    font-weight: 600;
+}
+
+.footer{
+    margin: 5rem auto;
+    gap: 1rem;
+}
+
+.download-img{
+    width: 10rem;
+}
