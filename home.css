@@ -16,6 +16,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.bod-light{
+    border: 0.5px solid var(--font-gray-light);
+}
+
 /* Defining new font sizes */
 
 .heading1{
@@ -167,6 +171,11 @@
     margin: 5rem auto 2rem auto;
     gap: 5rem;
 }
+.sale{
+    background-color: var(--background-skyblue-opaque);
+    padding: 4rem;
+    border-radius: 2.5rem;
+}
 
 .category-item{
     display: flex;
@@ -182,8 +191,46 @@
     font-size: 4rem;
 }
 
+.popular-item{
+    gap: 1rem;
+}
 
+.card{
+    width: 15rem;
+    height: 22rem;
+    background-color: var(--background-day);
+}
+.card-image{
+    background-color: var(--background-day);
+}
 
+.card-image img{
+    aspect-ratio: 1/0.8;
+}
 
+.add-to-bag{
+    color: var(--background-day);
+    background-color: var(--brand-color);
+    padding: var(--space-xs);
+    border-radius: var(--radius-round);
+}
 
+.cards-cta p{
+    margin: 0 1rem;
+}
 
+.counter-button{
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--brand-color);
+    font-weight: 600;
+}
+
+.footer{
+    margin: 5rem auto;
+    gap: 1rem;
+}
+
+.download-img{
+    width: 10rem;
+}
