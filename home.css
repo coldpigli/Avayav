@@ -4,7 +4,7 @@
     /* font colors  */
     --font-primary: #16162E;
     --font-gray: #202020;
-    --font-gray-light: #F7F7F7;
+    --font-gray-light: #eef0f1;
 
     /* backgorund colors  */
     --background-skyblue-opaque: #D5F0DB;
@@ -161,6 +161,29 @@
     border-radius: var(--space-sm);
     background-color: var(--brand-color);
 }
+
+/* Category Section  */
+.category-section{
+    margin: 5rem auto 2rem auto;
+    gap: 5rem;
+}
+
+.category-item{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: var(--font-gray-light);
+    padding: 2rem;
+    cursor: pointer;
+    border-radius: var(--radius-lg);
+}
+
+.category-item span{
+    font-size: 4rem;
+}
+
+
+
 
 
 
