@@ -1,0 +1,10 @@
+.login-container{
+    min-height: 100vh;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.login-container .input-wrapper{
+    width: 100%;
+}
