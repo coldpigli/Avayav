@@ -1,0 +1,42 @@
+.breadcrumbs{
+    margin: 0 auto;
+}   
+
+.category-section-minimal{
+    margin: 2rem auto;
+}
+
+.filter-bar{
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.filter-chip{
+    color: var(--font-gray);
+    border: 1px solid var(--font-gray-light);
+    font-weight: 400;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: var(--radius-md);
+}
+
+.filter-dropdown{
+    position: relative;
+}
+
+.filter-dropdown:hover .dropdown-content{
+    display: inline-flex;
+    position: absolute;
+    top: 100%;
+}
+
+.checkbox-container{
+    gap: 1rem;
+    padding: var(--space-sm );
+}
+
+.product-page-search{
+    margin: 3rem auto 0 auto;
+    border: 1px solid var(--font-gray-light);
+    width: fit-content;
+}
