@@ -105,14 +105,10 @@
 }
 
 /*Dropdown*/
-.dropbtn {
-    border: none;
-    cursor: pointer;
-  }
   
   .dropdown {
     position: relative;
-    display: inline-block;
+    cursor: pointer;
   }
   
   .dropdown-content {
@@ -135,6 +131,7 @@
   
   .dropdown:hover .dropdown-content {
     display: block;
+    top: 100%;
   }
 /* Dropdown end    */
 
@@ -175,6 +172,9 @@
     background-color: var(--background-skyblue-opaque);
     padding: 4rem;
     border-radius: 2.5rem;
+}
+.category-item-list{
+    gap: 1rem;
 }
 
 .category-item{
@@ -233,4 +233,18 @@
 
 .download-img{
     width: 10rem;
+}
+
+/* For Smaller Screens  */
+
+@media  only screen and  (max-width: 780px){
+    .navigation-top{
+        width: 90%;
+    }
+    .nav-links{
+        display: none;
+    }
+    .user-profile{
+        display: none;
+    }
 }
